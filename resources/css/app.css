@@ -64,3 +64,40 @@ select:focus[data-flux-control] {
 /* \[:where(&)\]:size-4 {
     @apply size-4;
 } */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap'); */
+
+@layer base {
+    body {
+        font-family: 'Inter', var(--font-sans);
+        background-color: #f3f3f3;
+        color: #1a1a1a;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+@layer components {
+
+    .title {
+        font-size: 13px;
+        line-height: 1.6;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .paragraph {
+        font-size: 13px;
+        line-height: 1.75;    
+        color: var(--color-zinc-600);
+} 
+    }
+
+    .nav-text {
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
