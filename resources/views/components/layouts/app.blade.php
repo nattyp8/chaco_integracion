@@ -9,10 +9,11 @@
     <body class="bg-[#ffffff] text-[#1a1a1a] antialiased">
 
         <div class="flex h-screen overflow-hidden">
-            <div class="w-[60%] relative bg-[#8e6060]">
-                @yield('map')
-            </div>
-            <div class="w-[40%] bg-white flex flex-col justify-between border-l border-color: #e5e5e5;">
+                <div class="w-[50%] relative bg-cover bg-center"
+                    style="background-image: url('{{ $bgImage ?? 'public/images/antecedentes.svg' }}');">
+                    @yield('map')
+                </div>
+            <div class="w-[50%] bg-white flex flex-col justify-between border-l border-color: #e5e5e5;">
                 <div class="px-14 pt-16 pb-10 overflow-y-auto">
                     @yield('content')
                 </div>

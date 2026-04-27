@@ -29,8 +29,9 @@ Route::get('/home', function () {
             "In April 2009..."
         ]
     ];
+    $bgImage = 'public/images/antecedentes.svg';
 
-    return view('home', compact('data'));
+    return view('home', compact('data', 'bgImage'));
 });
 
 require __DIR__.'/settings.php';
