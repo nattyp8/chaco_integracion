@@ -19,3 +19,20 @@ import Alpine from 'alpinejs'
 window.Alpine = Alpine
 
 Alpine.start()
+
+window.timeLineComponent = (yearData) => ({
+    year: yearData,
+    currentEvent: null,
+    currentIndex: 0,
+
+    get step() {
+        return this.year.events.length > 1
+            ? 100 / (this.year.events.length - 1)
+            : 0
+    },
+
+    selectEvent(event, index) {
+        this.currentEvent = event
+        this.currentIndex = index
+    }
+})

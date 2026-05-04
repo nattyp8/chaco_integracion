@@ -24,11 +24,11 @@
             </div>
             <div class="space-y-[10px] text-left">
                 <div class="flex justify-end items-center gap-[10px]">
-                    <img src="/images/antestitulo.svg" class="cab">
+                    <span class="text-[18px]">/</span>
                     <a href="{{ route('home') }}" class="hover:text-black transition">HOME</a>
                 </div>
                 <div class="flex justify-end items-center gap-[10px]">
-                    <img src="/images/antestitulo.svg" class="cab">
+                    <span class="text-[18px]">/</span>
                     <a href="" class="hover:text-black transition">IDIOMA</a>
                 </div>
             </div>

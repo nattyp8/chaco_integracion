@@ -8,7 +8,7 @@
                 <div class="flex items-start gap-[18px] mb-[28px]">
                     <div class="w-[18px] h-[42px]"></div>
                     <h1 class="title max-w-[320px]">
-                       <img src="/images/antestitulo.svg" class="cab"> {{ $data['title'] }}
+                       <img src="/images/antestitulo.svg" alt="" class="cab"> {{ $data['title'] }}
                     </h1>
                 </div>
                 <div class="space-y-[14px] max-w-[420px]">

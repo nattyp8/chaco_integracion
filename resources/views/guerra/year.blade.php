@@ -2,41 +2,63 @@
 @section('content')
     <div id="app"
         x-data="timeLineComponent(@js($yearData))"
-        class="flex flex-col h-full justify-between">
+         class="relative h-full">
 
-        <h1 x-text="year.title" class="title"></h1>
+        <div class="pr-10 pb-32">
+            <h1 x-text="year.title" class="title"></h1>
 
-        <p class="paragraph" x-text="year.intro" x-show="!currentEvent"></p>
+            <p class="paragraph" x-text="year.intro" x-show="!currentEvent"></p>
 
-        <div class="mb-6" x-show="currentEvent">
-            <p class="text-sm opacity-60" x-text="currentEvent.date"></p>
-            <p class="paragraph mt-2" x-text="currentEvent.text"></p>
-        </div>
-
-        <div class="mt-10 w-full">
-            <div class="relative w-full h-2px bg-gray-400">
-                
-                <div class="absolute top-[-6px] left-0 rigth-0 flex justify-between">
-                    <template x-for="event in year.events" :key="event.id">
-                        <div class="flex flex-col items-center cursor-pointer"
-                            @click="selectEvent(event)">
-                            <div
-                                class="w-3 h-3 rounded-full"
-                                :class="currentEvent?.id === event.id
-                                 ?'bg.black scale-125'
-                                 :'bg-gray-400'">
-                            </div>
-                            <span class="text-xs mt-2"
-                                :class="currentevent?.id === event.id? 'text-black' :'text-gray-400'"
-                                x-text="event.label">
-                            </span>
-                            <div class="absolute top-0 left-0 h-[2px] bg-black"
-                                :style="`width: ${ (year.events.findIndex(e => e.id === currentEvent?.id) / (year.events.length - 1)) * 100 }%`">
-                            </div>
-                        </div>
-                    </template>
-                </div>
+            <div class="mb-6" x-show="currentEvent">
+                <p class="text-sm opacity-60" x-text="currentEvent.date"></p>
+                <p class="paragraph mt-2" x-text="currentEvent.text"></p>
             </div>
         </div>
+    
+        <div
+            class="absolute bottom-5 left-0 right-0 px-14 h-32 cursor-pointer"
+            @mousedown="startDrag"
+            @mouseup="stopDrag"
+            @mouseleave="stopDrag"
+            @mousemove="onDrag($event, $el)">
+
+            <!-- Línea base -->
+            <div class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-300"></div>
+
+            <!-- Punto móvil -->
+            <div
+                class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-black rounded-full transition-all duration-300"
+                :style="`left: ${currentIndex * step}%`">
+            </div>
+
+            <!-- Eventos -->
+            <template x-for="(event, index) in year.events" :key="event.id">
+                <div
+                    class="absolute flex flex-col items-center cursor-pointer"
+                    :style="`left: ${index * step}%; transform: translateX(-50%);`"
+                    @click="selectEvent(event, index)"
+                >
+
+                    <!-- Línea vertical -->
+                    <div
+                        class="w-0.5 h-25 transition-all duration-300"
+                        :class="index % 2 === 0 ? 'bg-gray-300 mt-2' : 'bg-gray-300 mb-2 order-2'">
+                    </div>
+
+                    <!-- Texto -->
+                    <span
+                        class="text-xs whitespace-nowrap"
+                        :class="[
+                            currentIndex === index ? 'text-black' : 'text-gray-400',
+                            index % 2 === 0 ? 'mt-2' : 'mb-2 order-first'
+                        ]"
+                        x-text="event.label">
+                    </span>
+
+                </div>
+            </template>
+
+        </div>
+
     </div>
 @endsection

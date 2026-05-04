@@ -1,35 +1,40 @@
 {
   "es": {
-    "ui": {
-      "language": "IDIOMA",
-      "home": "INICIO",
-      "sections": {
-        "background": "ANTECEDENTES Y RESOLUCIÓN",
-        "advances": "FRONTERAS Y AVANCES",
-        "forts": "FORTINES VISITABLES"
-      }
-    },
-
-    "sections": {
-      "background": {
-        "title": "ANTECEDENTES DE LA GUERRA DEL CHACO Y RESOLUCIÓN DEL CONFLICTO",
-        "text": "Desde el siglo XIX, la definición de los límites fronterizos de Bolivia y Paraguay en la zona del Chaco Boreal había sido motivo de disputa. Ante esto, comisiones internacionales de carácter neutral plantearon distintas propuestas de reparto que nunca llegaron a concretarse. \n\n En ausencia de acuerdos, a principios del siglo XX Bolivia y Paraguay iniciaron la ocupación del territorio mediante la fundación de fortines militares. Paraguay fomentó además el asentamiento de colonias menonitas en la zona a partir de los años 20. \n\n Tras el fin de la Guerra, después de tres años de negociaciones, el 21 de julio de 1938 finalmente se logró que las dos partes llegaran a un acuerdo sobre los límites del Chaco mediante el Tratado de Paz, Amistad y Límites. Paraguay obtuvo el 80% del territorio en litigio, mientras que Bolivia logró asegurar su soberanía petrolera y un puerto en el río Paraguay (Puerto Busch), logrando así su salida al Océano Atlántico. \n\n En abril de 2009, setenta y cuatro años después de la finalización del conflicto, los presidentes de Bolivia y Paraguay acordaron la demarcación definitiva -de los límites- entre ambos países mediante la firma de la Memoria Final de la demarcación del límite internacional entre ambos países."
+    "home": {
+      "antecedentes": {
+        "title": "ANTECEDENTES DE LA GUERRA DEL CHACO",
+        "image": "images/antecedentes.svg",
+        "paragraphs": [
+          "Desde el siglo XIX, la definición de los límites fronterizos de Bolivia y Paraguay en la zona del Chaco Boreal había sido motivo de disputa. Ante esto, comisiones internacionales de carácter neutral plantearon distintas propuestas de reparto que nunca llegaron a concretarse. \n\n En ausencia de acuerdos, a principios del siglo XX Bolivia y Paraguay iniciaron la ocupación del territorio mediante la fundación de fortines militares. Paraguay fomentó además el asentamiento de colonias menonitas en la zona a partir de los años 20. \n\n Tras el fin de la Guerra, después de tres años de negociaciones, el 21 de julio de 1938 finalmente se logró que las dos partes llegaran a un acuerdo sobre los límites del Chaco mediante el Tratado de Paz, Amistad y Límites. Paraguay obtuvo el 80% del territorio en litigio, mientras que Bolivia logró asegurar su soberanía petrolera y un puerto en el río Paraguay (Puerto Busch), logrando así su salida al Océano Atlántico. \n\n En abril de 2009, setenta y cuatro años después de la finalización del conflicto, los presidentes de Bolivia y Paraguay acordaron la demarcación definitiva -de los límites- entre ambos países mediante la firma de la Memoria Final de la demarcación del límite internacional entre ambos países."
+        ]
       },
-      "advances": {
-        "title": "FRONTERAS Y AVANCES",
-        "text": ""
+      "fronteras": {
+        "title": "ANTECEDENTES DE LA GUERRA DEL CHACO",
+        "image": "images/fronteras.svg",
+        "paragraphs": [
+          "Desde el siglo XIX, la definición de los límites fronterizos de Bolivia y Paraguay en la zona del Chaco Boreal había sido motivo de disputa. Ante esto, comisiones internacionales de carácter neutral plantearon distintas propuestas de reparto que nunca llegaron a concretarse. \n\n En ausencia de acuerdos, a principios del siglo XX Bolivia y Paraguay iniciaron la ocupación del territorio mediante la fundación de fortines militares. Paraguay fomentó además el asentamiento de colonias menonitas en la zona a partir de los años 20. \n\n Tras el fin de la Guerra, después de tres años de negociaciones, el 21 de julio de 1938 finalmente se logró que las dos partes llegaran a un acuerdo sobre los límites del Chaco mediante el Tratado de Paz, Amistad y Límites. Paraguay obtuvo el 80% del territorio en litigio, mientras que Bolivia logró asegurar su soberanía petrolera y un puerto en el río Paraguay (Puerto Busch), logrando así su salida al Océano Atlántico. \n\n En abril de 2009, setenta y cuatro años después de la finalización del conflicto, los presidentes de Bolivia y Paraguay acordaron la demarcación definitiva -de los límites- entre ambos países mediante la firma de la Memoria Final de la demarcación del límite internacional entre ambos países."
+        ]
       },
-      "forts": {
-        "title": "FORTINES VISITABLES",
-        "text": ""
+      "fortines": {
+        "title": "ANTECEDENTES DE LA GUERRA DEL CHACO",
+        "image": "images/fortines.svg",
+        "paragraphs": [
+          "Desde el siglo XIX, la definición de los límites fronterizos de Bolivia y Paraguay en la zona del Chaco Boreal había sido motivo de disputa. Ante esto, comisiones internacionales de carácter neutral plantearon distintas propuestas de reparto que nunca llegaron a concretarse. \n\n En ausencia de acuerdos, a principios del siglo XX Bolivia y Paraguay iniciaron la ocupación del territorio mediante la fundación de fortines militares. Paraguay fomentó además el asentamiento de colonias menonitas en la zona a partir de los años 20. \n\n Tras el fin de la Guerra, después de tres años de negociaciones, el 21 de julio de 1938 finalmente se logró que las dos partes llegaran a un acuerdo sobre los límites del Chaco mediante el Tratado de Paz, Amistad y Límites. Paraguay obtuvo el 80% del territorio en litigio, mientras que Bolivia logró asegurar su soberanía petrolera y un puerto en el río Paraguay (Puerto Busch), logrando así su salida al Océano Atlántico. \n\n En abril de 2009, setenta y cuatro años después de la finalización del conflicto, los presidentes de Bolivia y Paraguay acordaron la demarcación definitiva -de los límites- entre ambos países mediante la firma de la Memoria Final de la demarcación del límite internacional entre ambos países."
+        ]
       }
     },
 
     "years": {
       "1932": {
         "title": "1932",
-        "intro": "En junio de 1932 una fuerza militar boliviana rodeó las orillas de la Laguna Pitiantuta y ocupó el Fortín paraguayo Carlos A. López con el fin de controlar los recursos acuíferos. Esta acción supondría el fin de las negociaciones diplomáticas. La recuperación del fortín por parte de las tropas paraguayas supondría el inicio de la Guerra del Chaco. \n\n Durante los meses de julio a diciembre ambos ejércitos intentaron tomar posiciones contrarias en la zona central del actual Chaco Paraguayo. Este sería el máximo avance de las fuerzas bolivianas en territorio paraguayo. En estos meses destaca la Batalla de Boquerón por la estrategia paraguaya de asedio e interrupción de las comunicaciones y del suministro de armas y alimentos como medio para doblegar al enemigo. Esta derrota supondría un duro golpe para las fuerzas bolivianas, así como la destitución del General Osorio, que sería sustituido por el General alemán Kundt.",
+        "map":"images/mapa_1932.png",
         "events": [
+
+            {
+            "id": 0,        
+            "text": "En junio de 1932 una fuerza militar boliviana rodeó las orillas de la Laguna Pitiantuta y ocupó el Fortín paraguayo Carlos A. López con el fin de controlar los recursos acuíferos. Esta acción supondría el fin de las negociaciones diplomáticas. La recuperación del fortín por parte de las tropas paraguayas supondría el inicio de la Guerra del Chaco. \n\n Durante los meses de julio a diciembre ambos ejércitos intentaron tomar posiciones contrarias en la zona central del actual Chaco Paraguayo. Este sería el máximo avance de las fuerzas bolivianas en territorio paraguayo. En estos meses destaca la Batalla de Boquerón por la estrategia paraguaya de asedio e interrupción de las comunicaciones y del suministro de armas y alimentos como medio para doblegar al enemigo. Esta derrota supondría un duro golpe para las fuerzas bolivianas, así como la destitución del General Osorio, que sería sustituido por el General alemán Kundt."
+            },
+
           {
             "id": "abr",
             "label": "Abril",
@@ -83,8 +88,13 @@
 
       "1933": {
         "title": "1933",
-        "intro": "Durante 1933 la guerra sigue centrada en una porción del territorio relativamente pequeña, cercana a las riberas de los ríos Pilcomayo, Monte Lima y Verde. \n\n Si los primeros meses supusieron para las fuerzas paraguayas el afianzamiento de sus posiciones más occidentales, los últimos meses del año supusieron el inicio de un imparable avance hacia la zona ocupada por los fortines bolivianos.",
+        "map":"images/mapa_1933.png",
         "events": [
+
+            {
+            "id": 0,        
+            "text": "Durante 1933 la guerra sigue centrada en una porción del territorio relativamente pequeña, cercana a las riberas de los ríos Pilcomayo, Monte Lima y Verde. \n\n Si los primeros meses supusieron para las fuerzas paraguayas el afianzamiento de sus posiciones más occidentales, los últimos meses del año supusieron el inicio de un imparable avance hacia la zona ocupada por los fortines bolivianos."
+            },
           {
             "id": "enero",
             "label": "Enero",
@@ -126,165 +136,104 @@
 
       "1934": {
         "title": "1934",
-        "intro": "Durante 1934 en la Guerra del Chaco...",
-          "events": [
+        "map":"images/mapa_1934.png",  
+        "events": [
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": 0,        
+            "text": "Durante 1934 en la Guerra del Chaco se produce un mayor avance de fuerzas. El empuje de las tropas paraguayas hizo retroceder cientos de kilómetros a las fuerzas bolivianas, las cuales sufrirían importantes derrotas y cientos de bajas."
+            },
+          {
+            "id": "Enero",
+            "label": "Enero",
+            "date": "Enero 1934 TOMA DE FORTINES",
+            "text": "Tras el fin del Armisticio el Ejército Paraguayo reanudó su avance en el Chaco Boreal, siendo evacuados el Fortín Platanillos, el Fortín Loa, el Fortín Esteros, el Fortín Jayucubás y el Fortín Saavedra, entre otros."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Marzo",
+            "label": "Marzo",
+            "date": "Marzo 1934 CAÑADA TARIJA y GARRAPATAL",
+            "text": "El 20 de marzo, las tropas paraguayas rodearon Cañada Tarija, aniquilando a las unidades bolivianas y causando cientos de muertos y prisioneros. A los pocos días cae Garrapatal, que dejaría libre el camino hasta Picuiba y el avance hacia el norte de los soldados paraguayos."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Abril",
+            "label": "Abril",
+            "date": "Abril",
+            "text": "Las tropas bolivianas realizan un nuevo repliegue, retrocediendo desde Campo Jurado hasta Cañada Esperanza y luego hacia Ballivián y Cañada Strongest."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Mayo",
+            "label": "Mayo",
+            "date": "Mayo_BATALLA CAÑADA STRONGEST",
+            "text": "Las tropas bolivianas realizan un nuevo repliegue, retrocediendo desde Campo Jurado hasta Cañada Esperanza y luego hacia Ballivián y Cañada Strongest."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Julio",
+            "label": "Julio",
+            "date": "31 de julio FORTÍN CAMACHO.",
+            "text": "El General Estigarribia instala su cuartel de mando en el Fortín Camacho."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Agosto",
+            "label": "Agosto",
+            "date": "Agosto CARANDAYTY",
+            "text": "El Ejército Paraguayo desencadenó una gran ofensiva sorpresiva con miles de hombres que ocuparon el Fortín Picuiba el 15 de Agosto y a continuación el Fortín 27 de Noviembre. Descendieron después hacia el oeste tomando el nudo de comunicaciones de Huirapitindí. Esta maniobra permitió a los paraguayos acercar sus tropas al principal centro logístico en Carandaitý, que fue finalmente protegida por refuerzos bolivianos venidos para proteger a la población convertida en fortín."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Septiembre",
+            "label": "Septiembre",
+            "date": "Septiembre de 1934",
+            "text": "El General Toro del ejército Boliviano inició una contraofensiva desde Carandaitý, intentando copar la 6ª división paraguaya, que se atrincheró a los lados del camino de Carandaitý a Picuiba, esquivando el cerco boliviano y estableciéndose en Villazón. El ejército boliviano intentó recuperar Villazón y el fortín 27 de noviembre, con el fin de liberar la vía que unía Villa Montes con Roboré, nuevo centro estratégico en el noreste creado para intentar el acceso al río Paraguay"
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Noviembre",
+            "label": "Noviembre",
+            "date": "10 al 17 de noviembre de 1934. BALLIVIÁN, EL CARMEN.",
+            "text": "El 10 de noviembre se lanzó una contraofensiva aprovechando un descuido de la defensa boliviana, la cual sufrió innumerables bajas, en un enfrentamiento conocido como la Batalla de El Carmen. Esta debilidad fue aprovechada por el Paraguay para tomar el estratégico Fortín Ballivián, símbolo de la presencia boliviana en el Pilcomayo."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Diciembre",
+            "label": "Diciembre",
+            "date": "Diciembre de 1934-PICUIBA",
+            "text": "En los primeros días de diciembre Paraguay inicia un ataque contra las tropas del General Toro en Picuiba, que finalizó con la retirada de las fuerzas paraguayas. Esos días de diciembre fueron especialmente calurosos y la falta de agua ocasionó cientos de muertes de soldados bolivianos, que fallecieron de calor y de sed. Entretanto las tropas del General Estigarribia tomaron el enclave estratégico del 27 de noviembre, Huryapinditi, Santa Fe y Amboro, en el río Parapetí. \n\n El ejército boliviano se retiró a Boyouibe para su defensa, mientras que más al sur, la 9ª divisón boliviana pierde la posición de Ybobó. Al norte, el ejército paraguayo obligó a los regimientos bolivianos a abandonar Capirenda, un punto de gran valor estratégico, ya que su posición elevada en las serranías permitía ver la planicie Chaqueña."
           }
         ]
       },
 
       "1935": {
         "title": "1935",
-        "intro": "En 1935 las tropas paraguayas...",
+        "map":"images/mapa_1935.png",
         "events": [
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": 0,        
+          "text": "En 1935 las tropas paraguayas continuaron avanzando hacia la zona occidental del Chaco. Para el mes de abril éstas habían superado ya la zona en disputa y se encontraban estancadas en la cordillera de Aguaragüe, un territorio montañoso ajeno a su hábitat. Ante esta situación de estancamiento y mermadas las economías de ambos países, la guerra finalizó el 15 de junio, aunque la resolución del conflicto no llegaría hasta unos años más tarde."
+            },
+          {
+            "id": "Febrero",
+            "label": "Febrero",
+            "date": "Febrero de 1935_VILLAMONTES.",
+            "text": "El general Estigarribia inicia la ofensiva final sobre Villa Montes. Sin embargo, no se obtuvieron avances significativos. Mientras los primer y tercer cuerpo del ejército de Paraguay se encontraban en Villa Montes, el segundo cuerpo se dirigió a la zona petrolífera, que las fuerzas bolivianas instaladas en la cordillera de Aguaragüe, lograron detener."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "Abril",
+            "label": "Abril",
+            "date": "Abril de 1935",
+            "text": "Las tropas paraguayas habían llegado a territorios que estaban fuera de la zona en disputa. Bolivia y Paraguay estaban agotadas económicamente."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "junio",
+            "label": "5 de junio",
+            "date": "5 de junio de 1935 BATALLA DE INGAVI",
+            "text": "La última batalla de la guerra se produjo mientras en Buenos Aires se iniciaba la acción de los países neutrales (Argentina, Brasil, Uruguay, Chile y Perú), para acordar el cese de hostilidades y el acuerdo de que la cuestión del Chaco se dilucidara en una conferencia de paz presidida por el presidente argentino."
           },
           {
-            "id": "",
-            "label": "",
-            "date": "",
-            "text": ""
+            "id": "junio2",
+            "label": "14 de junio",
+            "date": "14 de junio de 1935. CESE DE LAS HOSTILIDADES.",
+            "text": "Tras varios días de ataques sin un objetivo claro, el día 14 de junio a las a las 12:00 horas finalizaron las hostilidades."
           }
         ]
-      }
-    }
-  },
-
-  "en": {
-    "ui": {
-      "language": "LANGUAGE",
-      "home": "HOME",
-      "sections": {
-        "background": "BACKGROUND AND RESOLUTION",
-        "advances": "ADVANCES AND BORDERS",
-        "forts": "VISITABLE FORTS"
-      }
-    },
-
-    "sections": {
-      "background": {
-        "title": "BACKGROUND TO THE CHACO WAR AND RESOLUTION OF THE CONFLICT",
-        "text": "Since the 19th century, the definition of the border boundaries..."
-      },
-      "advances": {
-        "title": "ADVANCES AND BORDERS",
-        "text": ""
-      },
-      "forts": {
-        "title": "VISITABLE FORTS",
-        "text": ""
-      }
-    },
-
-    "years": {
-      "1932": {
-        "title": "1932",
-        "intro": "In June 1932, a Bolivian military force surrounded...",
-        "map": "map-1932.png",
-        "events": [
-          {
-            "id": "apr",
-            "label": "April",
-            "date": "April 25, 1932",
-            "text": "A Bolivian plane discovered Pitiantuta Lagoon."
-          },
-          {
-            "id": "jun",
-            "label": "June",
-            "date": "June 15, 1932",
-            "text": "Bolivian forces occupied Fort Carlos A. López."
-          }
-        ]
-      },
-
-      "1933": {
-        "title": "1933",
-        "intro": "In 1933, the war remained concentrated...",
-        "map": "map-1933.png",
-        "events": []
-      },
-
-      "1934": {
-        "title": "1934",
-        "intro": "In 1934, Paraguayan forces advanced...",
-        "map": "map-1934.png",
-        "events": []
-      },
-
-      "1935": {
-        "title": "1935",
-        "intro": "In 1935, Paraguayan troops advanced west...",
-        "map": "map-1935.png",
-        "events": []
       }
     }
   }
 }
+
