@@ -1,4 +1,4 @@
-window.timeLineComponent = (yearData) => ({
+globalThis.timeLineComponent = (yearData) => ({
     year: yearData,
     currentIndex: 0,
     dragging: false,
@@ -34,5 +34,10 @@ window.timeLineComponent = (yearData) => ({
         const index = Math.round(percent * (this.year.events.length - 1))
 
         this.currentIndex = index
+    },
+    init() {
+    if (!this.year || !this.year.events) return
+
+    this.step = 100 / (this.year.events.length - 1)
     }
 })

@@ -12,10 +12,11 @@
                     style="background-image: url('{{ asset($bgImage) }}')">
                     @yield('map')
                 </div>
-            <div class="w-[50%] bg-white flex flex-col justify-between ">
-                <div class="px-14 pt-16 pb-10 overflow-y-auto">
+            <div class="w-[50%] bg-white flex flex-col h-full">
+                <div class="flex-1 overflow-y-auto px-14 pt-20">
                     @yield('content')
                 </div>
+                
                 <div class="px-14 pb-5 pt-5">
                     @include('layouts.partials.nav')
                 </div>
