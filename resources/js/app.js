@@ -36,3 +36,10 @@ window.timeLineComponent = (yearData) => ({
         this.currentIndex = index
     }
 })
+
+
+
+
+
+
+// agregar las funciones para el welcome

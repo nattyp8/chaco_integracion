@@ -1,17 +1,16 @@
 @extends('layouts.app')
-    {{-- @section('map')
-        <div id="map" class="w-full h-full"></div>
-    @endsection --}}
     @section('content')
-        <div class="flex flex-col h-full justify-between">
+        <div class="flex flex-col h-full">
             <div>
-                <div class="flex items-start gap-[18px] mb-[28px]">
-                    <div class="w-[18px] h-[42px]"></div>
-                    <h1 class="title max-w-[320px]">
-                       <img src="/images/antestitulo.svg" alt="" class="cab"> {{ $data['title'] }}
+                <div class="flex items-start gap-3 mb-3">
+                    <img src="{{ asset('images/antestitulo.svg') }}"
+                        class="h-7.5 w-auto opacity-50 mt-1"
+                        alt="">
+                    <h1 class="title max-w-[320px] m-0">
+                        {{ $data['title'] }}
                     </h1>
                 </div>
-                <div class="space-y-[14px] max-w-[420px]">
+                <div class="space-y-1.25 -max-w-105 whitespace-pre-line mb-5">
                     @foreach ($data['paragraphs'] as $p)
                         <p class="paragraph">
                             {{ $p }}
@@ -19,38 +18,37 @@
                     @endforeach
                 </div>
             </div>
-            <div class="mt-[40px]">
+            <div>
                 <div class="flex justify-between items-start">
 
-                    <div class="flex items-center gap-[40px]">
+                    <div class="flex items-center gap-[10px]">
 
                         <div class="flex items-center gap-[8px]">
-                            <img src="{{ asset('images/lineas.png') }}" 
+                            <img src="{{ asset('images/lineas.png') }}"
                     class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
                             <a href="{{ route('home', ['section' => 'antecedentes']) }}"
-                                class="nav-text {{ $section === 'antecedentes' ? 'text-black' : 'text-gray-400' }}">
+                                class="nav-home {{ $section === 'antecedentes' ? 'text-black' : 'text-gray-400' }}">
                                     ANTECEDENTES Y RESOLUCIÓN
                             </a>
                         </div>
                         <div class="flex items-center gap-[8px]">
-                            <img src="{{ asset('images/lineas.png') }}" 
+                            <img src="{{ asset('images/lineas.png') }}"
                     class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                             <a href="{{ route('home', ['section' => 'fronteras']) }}"
-                                class="nav-text {{ $section === 'fronteras' ? 'text-black' : 'text-gray-400' }}">
+                                class="nav-home {{ $section === 'fronteras' ? 'text-black' : 'text-gray-400' }}">
                                     FRONTERAS Y AVANCES
                             </a>
                         </div>
                     </div>
                     <div class="flex items-center gap-[8px] ">
-                        <img src="{{ asset('images/lineas.png') }}" 
+                        <img src="{{ asset('images/lineas.png') }}"
                     class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                          <a href="{{ route('home', ['section' => 'fortines']) }}"
-                                class="nav-text {{ $section === 'fortines' ? 'text-black' : 'text-gray-400' }}">
+                                class="nav-home {{ $section === 'fortines' ? 'text-black' : 'text-gray-400' }}">
                                     FORTINES VISITABLES
                             </a>
                     </div>
                 </div>
-                <div class="w-[190px] h-[2px] bg-gray-400 mt-[10px]"></div>
             </div>
         </div>
 

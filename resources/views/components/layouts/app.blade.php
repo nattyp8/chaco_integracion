@@ -13,7 +13,7 @@
                     @yield('map')
                 </div>
             <div class="w-[50%] bg-white flex flex-col h-full">
-                <div class="flex-1 overflow-y-auto px-14 pt-20">
+                <div class="flex-1 overflow-y-auto px-12 pt-15">
                     @yield('content')
                 </div>
                 <div class="px-14 pb-5 pt-5">
