@@ -12,7 +12,7 @@ class GuerraController extends Controller
 
         $lang= request('lang','es');
 
-        $bgImage = "images/mapa_{$year}.svg";
+        $bgImage = $data[$lang]['years'][$year]['map'];
         
         $nav =$data[$lang]['home']['nav'];
 

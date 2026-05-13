@@ -61,10 +61,11 @@
                     <img src="{{ asset('images/antestitulo.svg') }}" 
                     class="h-[25px] w-auto opacity-50 group-hover:opacity-100 transition"
                     alt="">
-                   <a href="{{ route('home', [
+                   <a href="{{ request()->fullUrlWithQuery([
                         'lang' => $lang === 'es' ? 'en' : 'es'
-                    ]) }}" class="nav-text">
-                        {{$nav['language']}}
+                    ]) }}"
+                    class="nav-text">
+                        {{ $nav['language'] }}
                     </a>
                 </div>
             </div>

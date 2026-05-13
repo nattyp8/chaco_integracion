@@ -32,7 +32,7 @@
         "years": {
             "1932": {
                 "title": "1932",
-                "map":"images/mapa_1932.png",
+                "map":"images/mapa_1932.svg",
                 "events": [
 
                     {
@@ -93,7 +93,7 @@
 
             "1933": {
                 "title": "1933",
-                "map":"images/mapa_1933.png",
+                "map":"images/mapa_1933.svg",
                 "events": [
 
                     {
@@ -141,7 +141,7 @@
 
             "1934": {
                 "title": "1934",
-                "map":"images/mapa_1934.png",  
+                "map":"images/mapa_1934.svg",  
                 "events": [
                 {
                     "id": 0,        
@@ -206,7 +206,7 @@
 
             "1935": {
                 "title": "1935",
-                "map":"images/mapa_1935.png",
+                "map":"images/mapa_1935.svg",
                 "events": [
                 {
                     "id": 0,        
@@ -388,25 +388,25 @@
                 "events": [
                 {
                     "id": 0,        
-                    "text": "Durante 1934 en la Guerra del Chaco se produce un mayor avance de fuerzas. El empuje de las tropas paraguayas hizo retroceder cientos de kilómetros a las fuerzas bolivianas, las cuales sufrirían importantes derrotas y cientos de bajas."
+                    "text": "In 1934, in the Chaco War, there was a greater advance of troops. The drive forward by the Paraguayan forces drove the Bolivian forces, which would suffer major defeats and hundreds of casualties during this period, back hundreds of kilometers."
                     },
                 {
                     "id": "Enero",
-                    "label": "Enero",
-                    "date": "Enero 1934 TOMA DE FORTINES",
-                    "text": "Tras el fin del Armisticio el Ejército Paraguayo reanudó su avance en el Chaco Boreal, siendo evacuados el Fortín Platanillos, el Fortín Loa, el Fortín Esteros, el Fortín Jayucubás y el Fortín Saavedra, entre otros."
+                    "label": "January",
+                    "date": "January_CAPTURING FORTS",
+                    "text": "After the end of the Armistice, the Paraguayan Army resumed its advance in the Boreal Chaco, evacuating Fort Platanillos, Fort Loa, Fort Esteros, Fort Jayucubás and Fort Saavedra, amongst others."
                 },
                 {
                     "id": "Marzo",
-                    "label": "Marzo",
-                    "date": "Marzo 1934 CAÑADA TARIJA y GARRAPATAL",
-                    "text": "El 20 de marzo, las tropas paraguayas rodearon Cañada Tarija, aniquilando a las unidades bolivianas y causando cientos de muertos y prisioneros. A los pocos días cae Garrapatal, que dejaría libre el camino hasta Picuiba y el avance hacia el norte de los soldados paraguayos."
+                    "label": "March",
+                    "date": "March CAÑADA TARIJA and GARRAPATAL",
+                    "text": "On March 20, Paraguayan troops surrounded Cañada Tarija, annihilating Bolivian units and causing hundreds of deaths and prisoners. A few days later, Garrapatal falls, leaving the road open to Picuiba and the northward advance of Paraguayan soldiers."
                 },
                 {
                     "id": "Abril",
-                    "label": "Abril",
-                    "date": "Abril",
-                    "text": "Las tropas bolivianas realizan un nuevo repliegue, retrocediendo desde Campo Jurado hasta Cañada Esperanza y luego hacia Ballivián y Cañada Strongest."
+                    "label": "April",
+                    "date": "April",
+                    "text": "Bolivian troops once again retreated, going back from Campo Jurado to Cañada Esperanza and then to Ballivián and Cañada Strongest."
                 },
                 {
                     "id": "Mayo",
@@ -416,33 +416,33 @@
                 },
                 {
                     "id": "Julio",
-                    "label": "Julio",
-                    "date": "31 de julio FORTÍN CAMACHO.",
-                    "text": "El General Estigarribia instala su cuartel de mando en el Fortín Camacho."
+                    "label": "July",
+                    "date": "July 31 FORT CAMACHO.",
+                    "text": "General Estigarribia establishes his Command Barracks in Fort Camacho."
                 },
                 {
                     "id": "Agosto",
-                    "label": "Agosto",
-                    "date": "Agosto CARANDAYTY",
-                    "text": "El Ejército Paraguayo desencadenó una gran ofensiva sorpresiva con miles de hombres que ocuparon el Fortín Picuiba el 15 de Agosto y a continuación el Fortín 27 de Noviembre. Descendieron después hacia el oeste tomando el nudo de comunicaciones de Huirapitindí. Esta maniobra permitió a los paraguayos acercar sus tropas al principal centro logístico en Carandaitý, que fue finalmente protegida por refuerzos bolivianos venidos para proteger a la población convertida en fortín."
+                    "label": "August",
+                    "date": "August_CARANDAYTY",
+                    "text": "The Paraguayan Army unleashed a large surprise offensive with thousands of men who occupied Fortín Picuiba on August 15 and then Fort 27 de Noviembre. They descended later to the west taking the communications hub of Huirapitindí. This maneuver allowed the Paraguayans to bring their troops to the main logistics center in Carandaitý, which was finally defended by Bolivian reinforcements which had arrived to protect the town converted into a fort."
                 },
                 {
                     "id": "Septiembre",
-                    "label": "Septiembre",
-                    "date": "Septiembre de 1934",
-                    "text": "El General Toro del ejército Boliviano inició una contraofensiva desde Carandaitý, intentando copar la 6ª división paraguaya, que se atrincheró a los lados del camino de Carandaitý a Picuiba, esquivando el cerco boliviano y estableciéndose en Villazón. El ejército boliviano intentó recuperar Villazón y el fortín 27 de noviembre, con el fin de liberar la vía que unía Villa Montes con Roboré, nuevo centro estratégico en el noreste creado para intentar el acceso al río Paraguay"
+                    "label": "September",
+                    "date": "September",
+                    "text": "General Toro of the Bolivian army began a counteroffensive from Carandaitý in an attempt to take the 6th Paraguayan division, which was entrenched on the sides of the road from Carandaitý to Picuiba. He avoided the Bolivian siege and set up headquarters in Villazón. \n\n The Bolivian army tried in vain to recover Villazón and Fort 27 de Noviembre, in order to free up the road between Villa Montes and Roboré, a new strategic center in the northeast created in order to access the Paraguay River."
                 },
                 {
                     "id": "Noviembre",
-                    "label": "Noviembre",
-                    "date": "10 al 17 de noviembre de 1934. BALLIVIÁN, EL CARMEN.",
-                    "text": "El 10 de noviembre se lanzó una contraofensiva aprovechando un descuido de la defensa boliviana, la cual sufrió innumerables bajas, en un enfrentamiento conocido como la Batalla de El Carmen. Esta debilidad fue aprovechada por el Paraguay para tomar el estratégico Fortín Ballivián, símbolo de la presencia boliviana en el Pilcomayo."
+                    "label": "November",
+                    "date": "November 10 - 17 BALLIVIÁN, EL CARMEN.",
+                    "text": "On November 10, a counteroffensive was launched, taking advantage of a weakness in the Bolivian defenses. There were countless casualties in a confrontation known as the Battle of El Carmen. This weakness was used by Paraguay to take the strategic Fort Ballivián, a symbol of the Bolivian presence in Pilcomayo."
                 },
                 {
                     "id": "Diciembre",
-                    "label": "Diciembre",
-                    "date": "Diciembre de 1934-PICUIBA",
-                    "text": "En los primeros días de diciembre Paraguay inicia un ataque contra las tropas del General Toro en Picuiba, que finalizó con la retirada de las fuerzas paraguayas. Esos días de diciembre fueron especialmente calurosos y la falta de agua ocasionó cientos de muertes de soldados bolivianos, que fallecieron de calor y de sed. Entretanto las tropas del General Estigarribia tomaron el enclave estratégico del 27 de noviembre, Huryapinditi, Santa Fe y Amboro, en el río Parapetí. \n\n El ejército boliviano se retiró a Boyouibe para su defensa, mientras que más al sur, la 9ª divisón boliviana pierde la posición de Ybobó. Al norte, el ejército paraguayo obligó a los regimientos bolivianos a abandonar Capirenda, un punto de gran valor estratégico, ya que su posición elevada en las serranías permitía ver la planicie Chaqueña."
+                    "label": "December",
+                    "date": "December PICUIBA",
+                    "text": "In early December, Paraguay initiated an attack against General Toro's troops in Picuiba, which ended with the withdrawal of Paraguayan forces. Those days in December were especially warm and the lack of water caused hundreds of deaths amongst Bolivian soldiers, who died of heat and thirst. Meanwhile, General Estigarribia’s troops took the strategic enclave of 27 de noviembre, Huryapinditi, Santa Fe and Amboro, on the Parapetí River. The Bolivian army withdraws to Boyouibe in a defensive move, while further south, the 9th Bolivian division loses its position at Ybobó. To the north, the Paraguayan army forced the Bolivian regiments to leave Capirenda, a point of great strategic importance, since its elevated position in the mountains allowed the Chaqueña plain to be seen."
                 }
                 ]
             },
@@ -453,31 +453,31 @@
                 "events": [
                 {
                     "id": 0,        
-                "text": "En 1935 las tropas paraguayas continuaron avanzando hacia la zona occidental del Chaco. Para el mes de abril éstas habían superado ya la zona en disputa y se encontraban estancadas en la cordillera de Aguaragüe, un territorio montañoso ajeno a su hábitat. Ante esta situación de estancamiento y mermadas las economías de ambos países, la guerra finalizó el 15 de junio, aunque la resolución del conflicto no llegaría hasta unos años más tarde."
+                "text": "In 1935, the Paraguayan troops continued advancing towards the western area of the Chaco. By April, they had already passed the disputed area and were stuck in the Aguaragüe range, a mountainous territory outside their habitat. Faced with this situation of stagnation and the decline of both countries’ economies, the war ended on June 15. However, the conflict would not be resolved until a few years later."
                     },
                 {
                     "id": "Febrero",
-                    "label": "Febrero",
-                    "date": "Febrero de 1935_VILLAMONTES.",
-                    "text": "El general Estigarribia inicia la ofensiva final sobre Villa Montes. Sin embargo, no se obtuvieron avances significativos. Mientras los primer y tercer cuerpo del ejército de Paraguay se encontraban en Villa Montes, el segundo cuerpo se dirigió a la zona petrolífera, que las fuerzas bolivianas instaladas en la cordillera de Aguaragüe, lograron detener."
+                    "label": "February",
+                    "date": "February_VILLAMONTES.",
+                    "text": "General Estigarribia begins the final offensive on Villa Montes. However, no significant progress was made. While the first and third corps of the Paraguayan army were in Villa Montes, the second went to the area producing oil, which Bolivian forces in the Aguaragüe mountain range managed to bring to a halt."
                 },
                 {
                     "id": "Abril",
-                    "label": "Abril",
-                    "date": "Abril de 1935",
-                    "text": "Las tropas paraguayas habían llegado a territorios que estaban fuera de la zona en disputa. Bolivia y Paraguay estaban agotadas económicamente."
+                    "label": "April",
+                    "date": "April",
+                    "text": "Paraguayan troops reached territories that were outside the disputed area. Bolivia and Paraguay were economically depleted."
                 },
                 {
-                    "id": "junio",
-                    "label": "5 de junio",
-                    "date": "5 de junio de 1935 BATALLA DE INGAVI",
-                    "text": "La última batalla de la guerra se produjo mientras en Buenos Aires se iniciaba la acción de los países neutrales (Argentina, Brasil, Uruguay, Chile y Perú), para acordar el cese de hostilidades y el acuerdo de que la cuestión del Chaco se dilucidara en una conferencia de paz presidida por el presidente argentino."
+                    "id": "junio1",
+                    "label": "June 05",
+                    "date": "June 05 BATTLE OF INGAVI",
+                    "text": "The last battle of the war occurred, while in Buenos Aires, neutral countries (Argentina, Brazil, Uruguay, Chile and Peru) began talks on the cessation of hostilities and the agreement that the Chaco issue would be addressed in a peace conference chaired by the Argentine president."
                 },
                 {
                     "id": "junio2",
-                    "label": "14 de junio",
-                    "date": "14 de junio de 1935. CESE DE LAS HOSTILIDADES.",
-                    "text": "Tras varios días de ataques sin un objetivo claro, el día 14 de junio a las a las 12:00 horas finalizaron las hostilidades."
+                    "label": "June 14",
+                    "date": "June 14  END OF HOSTILITIES.",
+                    "text": "After several days of attacks without a clear objective, on June 14 at 12:00 the hostilities ended."
                 }
                 ]
             }
