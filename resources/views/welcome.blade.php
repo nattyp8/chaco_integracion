@@ -9,7 +9,7 @@
     <body class="bg-black overflow-hidden">
         <div id="intro"
             data-url="{{ route('home') }}"
-            class="flex flex-col items-center justify-center mt-30">
+            class="flex flex-col items-center justify-center mt-30 pacity-100 transition-opacity ">
             <img
             src="{{ asset('images/img_inicio.svg')}}"
             alt="La guerra del Chaco"

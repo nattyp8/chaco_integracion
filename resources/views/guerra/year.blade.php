@@ -18,7 +18,9 @@
 
         <!-- parrafos -->
         <div class="flex-1 overflow-y-auto px-10 pb-6">
-            <div x-show="currentEvent">
+            <div x-show="currentEvent"
+            class="transition-opacity duration-300"
+            :class="contentVisible ? 'opacity-100' : 'opacity-0'">
                 <p class="timeline-date" x-text="currentEvent.date"></p>
                 <p class="paragraph-timeline mt-2 whitespace-pre-line"
                 x-text="currentEvent.text"></p>

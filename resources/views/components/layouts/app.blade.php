@@ -8,15 +8,21 @@
     </head>
     <body class="kiosk-mode">
         <div class="flex h-full overflow-hidden">
-                <div class="w-1/2 relative bg-contain bg-center bg-no-repeat"
+                <div id="mapPanel"
+                    class="w-1/2 relative bg-contain bg-center bg-no-repeat
+                    transition-opacity duration-700 opacity-100"
                     style="background-image: url('{{ asset($bgImage) }}')">
                     @yield('map')
                 </div>
-            <div class="w-1/2 flex flex-col h-full">
-                <div class="flex-1 overflow-y-auto px-12 pt-15">
+            <div
+                class="w-1/2 flex flex-col h-full">
+                <div id="pageContent"
+                    class="flex-1 overflow-y-auto px-12 pt-15
+                    transition-opacity duration-700 opacity-100">
                     @yield('content')
                 </div>
-                <div class="px-14 pb-5 pt-3">
+                <div id="navPanel"
+                    class="px-14 pb-5 pt-3">
                     @include('layouts.partials.nav')
                 </div>
             </div>

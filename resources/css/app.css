@@ -104,19 +104,18 @@ select:focus[data-flux-control] {
     .nav-text {
         font-size: 16px;
         font-weight:450;
-        color: var(--color-zinc-500);
-        transition: all 0.2s ease;
     }
-
+/* 
     .nav-text-active{
         font-weight: 600;
         color:black;
-    }
+    } */
 
     .nav-home {
         font-size: 12px;
         letter-spacing: 0.14em;
         text-transform: uppercase;
+        font-weight:450;
     }
 
     .timelinetext {         

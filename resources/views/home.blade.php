@@ -26,12 +26,10 @@
             {{-- nav antecedentes  --}}
             <div class="shrink-0 z-10">
                 <div class="flex justify-between items-start">
-
-                    <div class="flex items-center gap-[10px]">
-
+                    <div class="flex items-center gap-2.5">
                          @include('layouts.partials.antecedentes')
-
                     </div>
+                </div>
             </div>
         </div>
 
