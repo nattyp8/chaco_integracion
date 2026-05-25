@@ -10,15 +10,14 @@
         <div class="flex h-full overflow-hidden">
                 <div id="mapPanel"
                     class="w-1/2 relative bg-contain bg-center bg-no-repeat
-                    transition-opacity duration-700 opacity-100"
+                    transition-opacity duration-400 ease-in-out opacity-100"
                     style="background-image: url('{{ asset($bgImage) }}')">
                     @yield('map')
                 </div>
             <div
                 class="w-1/2 flex flex-col h-full">
                 <div id="pageContent"
-                    class="flex-1 overflow-y-auto px-12 pt-15
-                    transition-opacity duration-700 opacity-100">
+                    class="flex-1 overflow-y-auto px-12 pt-15">
                     @yield('content')
                 </div>
                 <div id="navPanel"
@@ -27,7 +26,7 @@
                 </div>
             </div>
         </div>
-        @stack('scripts')
+        {{-- @stack('scripts') --}}
     </body>
 </html>
 

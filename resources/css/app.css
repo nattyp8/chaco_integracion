@@ -89,9 +89,10 @@ select:focus[data-flux-control] {
     }
 
     .paragraph {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1.7;    
         color: var(--color-zinc-600);
+  
 } 
     }
 
@@ -102,14 +103,9 @@ select:focus[data-flux-control] {
     }
 
     .nav-text {
-        font-size: 16px;
+        font-size: 18px;
         font-weight:450;
     }
-/* 
-    .nav-text-active{
-        font-weight: 600;
-        color:black;
-    } */
 
     .nav-home {
         font-size: 12px;
@@ -156,9 +152,7 @@ select:focus[data-flux-control] {
     }
     
 
-     /* =========================
-    ciruclo del inicio de carga
-    ========================= */
+     /*ciruclo del inicio de carga*/
     #preloader {
     position: fixed;
     top: 0;

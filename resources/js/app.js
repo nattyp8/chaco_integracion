@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 globalThis.location.href = url
 
-            }, 400)
+            }, 300)
 
         }, { once: true })
     }
 })
 
 // Función para volver a inicio después de inactividad
-const tiempoInactividad = 60000
+const tiempoInactividad = 30000
 
 let temporizador
 
@@ -105,8 +105,10 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault()
 
             const mapPanel = document.getElementById('mapPanel')
+            const pageContent = document.getElementById('pageContent')
 
-            
+            pageContent?.classList.remove('opacity-100')
+            pageContent?.classList.add('opacity-0')
             mapPanel?.classList.remove('opacity-100')
             mapPanel?.classList.add('opacity-0')
 
@@ -114,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 window.location.href = link.href
 
-            }, 200)
+            }, 400)
 
         })
     })
