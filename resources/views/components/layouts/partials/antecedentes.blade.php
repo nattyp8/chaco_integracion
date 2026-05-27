@@ -1,3 +1,4 @@
+
     <div class="flex items-center gap-2">
                 <img src="{{ asset('images/lineas.png') }}"
                 class="h-5 w-auto transition {{request('section') =='antecedentes' ? 'opacity-100' : 'opacity-50'}}"alt="">

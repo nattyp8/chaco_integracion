@@ -50,8 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 // Función para volver a inicio después de inactividad
-const tiempoInactividad = 30000
-
+const tiempoInactividad = 60000
 let temporizador
 
 function volverAlInicio() {
@@ -99,24 +98,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
         link.addEventListener('click', (e) => {
 
-            
-            if (!link.href.includes(window.location.origin)) return
+            if (!link.href.includes(globalThis.location.origin)) return
 
             e.preventDefault()
+
+            const isHome = document.body.classList.contains('is-home')
 
             const mapPanel = document.getElementById('mapPanel')
             const pageContent = document.getElementById('pageContent')
 
-            pageContent?.classList.remove('opacity-100')
-            pageContent?.classList.add('opacity-0')
-            mapPanel?.classList.remove('opacity-100')
-            mapPanel?.classList.add('opacity-0')
+            // HOME → solo imagen
+            if (isHome) {
+
+                mapPanel?.classList.remove('opacity-100')
+                mapPanel?.classList.add('opacity-0')
+
+            } else {
+
+                // otras vistas → imagen + texto
+                mapPanel?.classList.remove('opacity-100')
+                mapPanel?.classList.add('opacity-0')
+
+                pageContent?.classList.remove('opacity-100')
+                pageContent?.classList.add('opacity-0')
+            }
 
             setTimeout(() => {
 
-                window.location.href = link.href
+                globalThis.location.href = link.href
 
-            }, 400)
+            }, 300)
 
         })
     })
