@@ -1,0 +1,25 @@
+{
+  "VD": {
+    "title": "Climatic Zones",
+    "surface": " ",
+    "description": "Humid sub-humid zone, located in the southern part of the Villa Hayes Department and at the confluence of the Pilcomayo and Paraguay Rivers.",
+    "mapImg": "mapa_lluvias.png",
+    "imgtitle": "img_na.png"
+  },
+
+  "AM": {
+    "title": "Climatic Zones",
+    "surface": " ",
+    "description": "Dry sub-humid zone, covering the central and northern areas of the Presidente Hayes Department and the eastern sector of the Alto Paraguay Department.",
+    "mapImg": "mapa_lluvias.png",
+    "imgtitle": "img_ch.png"
+  },
+
+  "RS": {
+    "title": "Climatic Zones",
+    "surface": " ",
+    "description": "Semi-arid zone, covering western Alto Paraguay and the entire Boquerón Department.",
+    "mapImg": "mapa_lluvias.png",
+    "imgtitle": "img_cs.png"
+  }
+}

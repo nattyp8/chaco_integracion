@@ -1,0 +1,55 @@
+{
+  "ER": {
+    "title": "Humid Chaco",
+    "surface": "51,927.60 km2",
+    "description": "The Humid Chaco is the wettest area of the Gran Chaco, as it receives the highest amount of rainfall throughout the year. It extends toward the East and Southeast under the strong influence of the Paraguay-Pilcomayo River system, with its lowlands frequently subject to flooding. Its vegetation and flora are highly diverse, including quebracho forests, palm savannas, and extensive wetlands associated with abundant aquatic fauna. Due to the heterogeneity of its habitats, its fauna is notable for its wide variety of bird, reptile, and mammal species.",
+    "mapImg_en": "zoom_3_eng-01.svg",
+    "mapImg_es": "mapa_ecorregiones-01.svg",
+    "imgtitle": "img_na.png"
+  },
+
+  "CH": {
+    "title": "Humid Chaco",
+    "surface": "51,927.60 km2",
+    "description": "The Humid Chaco is the wettest area of the Gran Chaco, as it receives the highest amount of rainfall throughout the year. It extends toward the East and Southeast under the strong influence of the Paraguay-Pilcomayo River system, with its lowlands frequently subject to flooding. Its vegetation and flora are highly diverse, including quebracho forests, palm savannas, and extensive wetlands associated with abundant aquatic fauna. Due to the heterogeneity of its habitats, its fauna is notable for its wide variety of bird, reptile, and mammal species.",
+    "mapImg_en": "zoom_3_eng-01.svg",
+    "mapImg_es": "mapa_ecorregiones-01.svg",
+    "imgtitle": "img_ch.png"
+  },
+
+  "CS": {
+    "title": "Dry Chaco",
+    "surface": "127,211.60 km2",
+    "description": "The Dry Chaco covers the largest area of the Paraguayan Chaco and represents its flattest surface. With well-developed shrublands, much of its territory consists of xerophytic semi-deciduous forest, a type of open forest where species such as mistol and white and red quebracho can be found. This vegetation varies depending on the more or less clayey composition of the soils where it develops. Its fauna stands out for the abundance of large mammals such as the jaguar, puma, and tapir.",
+    "mapImg_en": "zoom_3_eng-01.svg",
+    "mapImg_es": "mapa_ecorregiones-01.svg",
+    "imgtitle": "img_cs.png"
+  },
+
+  "PA": {
+    "title": "Pantanal",
+    "surface": "42,023.10 km2",
+    "description": "With medium-height subhumid forests, lagoons, and floodplain forests, the Pantanal is the largest wetland in the world and is located in the northeastern extreme of the Paraguayan Chaco. The biological richness of the Paraguay River, together with the influence of the Amazon and Cerrado ecoregions, has given the Pantanal an extraordinary abundance of wildlife, creating a unique exuberance that supports species inhabiting a natural heritage recognized worldwide.",
+    "mapImg_en": "zoom_3_eng-01.svg",
+    "mapImg_es": "mapa_ecorregiones-01.svg",
+    "imgtitle": "img_pa.png"
+  },
+
+  "CE": {
+    "title": "Cerrado",
+    "surface": "12,279.20 km2",
+    "description": "The Cerrado is located in the upper part of the region, bordering Bolivia. Most of its soils are clayey and acidic, later covered by coarse red sands from Bolivia’s Chiquitos Highlands and pebbles carried by rivers. Its wooded savanna is more open, with isolated trees or small forest islands. Since fires are a constant factor, many plant species have developed cork-like bark and underground stems to avoid direct contact with fire.",
+    "mapImg_en": "zoom_3_eng-01.svg",
+    "mapImg_es": "mapa_ecorregiones-01.svg",
+    "imgtitle": "img_ce.png"
+  },
+
+  "MD": {
+    "title": "Dunes",
+    "surface": "7,576.80 km2",
+    "description": "Located in northeastern Paraguay, the Chaco Dunes are characterized by wind-formed sand formations originating from the Grande and Parapetí rivers in Bolivia. With discontinuous and scattered coverage, their vegetation of sparse trees and shrubs generally does not exceed 10 meters in height. These conditions forced some animal species to develop strong adaptations to xerophytic environments and desert-like conditions on sandy soils, with the guanaco standing out among them.",
+    "mapImg_en": "zoom_3_eng-01.svg",
+    "mapImg_es": "mapa_ecorregiones-01.svg",
+    "imgtitle": "img_md.png"
+  }
+}

@@ -1,0 +1,23 @@
+{  "VD": {
+        "title": "Zonas climáticas",
+        "surface": " ",
+        "description": "Sub-húmedo húmedo, al Sur del Dpto. de Villa Hayes y en confluencia con los Ríos Pilcomayo y Paraguay.",
+        "mapImg": "mapa_lluvias.png",
+        "imgtitle": "img_na.png"
+    },
+    "AM": {
+        "title": "Zonas climáticas",
+        "surface": " ",
+        "description": "Sub-húmedo seco, el centro y norte del Dpto. de Presidente Hayes y el sector oriental del Dpto. de Alto Paraguay.",
+        "mapImg": "mapa_lluvias.png",
+        "imgtitle": "img_ch.png"
+    },
+    "RS": {
+        "title": "Zonas climáticas",
+        "surface": " ",
+        "description": "Semiárido, el occidente del Alto Paraguay y la totalidad del Dpto. de Boquerón.",
+        "mapImg": "mapa_lluvias.png",
+        "imgtitle": "img_cs.png"
+    }
+
+}

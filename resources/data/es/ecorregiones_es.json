@@ -1,0 +1,48 @@
+{  "ER": {
+        "title": "Chaco Húmedo",
+        "surface": "51.927,60 km2",
+        "description": "El Chaco húmedo es el área más húmeda del Gran Chaco, ya que recibe la mayor cantidad de lluvia durante el año. Se extiende al Este y Sudeste con una intensa influencia del sistema Río Paraguay-Pilcomayo, siendo sus zonas bajas normalmente inundables. La diversidad de vegetación y flora se destaca por abarcar quebrachales, sabanas palmares y grandes humedales asociados a la abundancia de fauna acuática. Debido a la heterogeneidad de hábitats su fauna se destaca por diversas especies de aves, reptiles y mamíferos.",
+        "mapImg": "mapa_ecorregiones-01.svg",
+        "imgtitle": "img_na.png"
+    },
+    "CH": {
+        "title": "Chaco Húmedo",
+        "surface": "51.927,60 km2",
+        "description": "El Chaco húmedo es el área más húmeda del Gran Chaco, ya que recibe la mayor cantidad de lluvia durante el año. Se extiende al Este y Sudeste con una intensa influencia del sistema Río Paraguay-Pilcomayo, siendo sus zonas bajas normalmente inundables. La diversidad de vegetación y flora se destaca por abarcar quebrachales, sabanas palmares y grandes humedales asociados a la abundancia de fauna acuática. Debido a la heterogeneidad de hábitats su fauna se destaca por diversas especies de aves, reptiles y mamíferos.",
+        "mapImg": "mapa_ecorregiones-01.svg",
+        "imgtitle": "img_ch.png"
+    },
+    "CS": {
+        "title": "Chaco Seco",
+        "surface": "127.211,60 Km2",
+        "description": "El Chaco Seco ocupa la mayor superficie del Chaco Paraguayo y constituye su superficie más plana. Con arbustales bien desarrollados, gran parte de su territorio es Bosque semicaducifolio xerofítico, un tipo de bosque abierto en el que pueden apreciarse especies como el mistol o el quebracho blanco y colorado. Esta vegetación es variable dependiendo de la composición más o menos arcillosa de los suelos en donde se desarrollen. Su fauna se destaca por la gran abundancia de mamíferos grandes tales como jaguareté, puma y tapir.",
+        "mapImg": "mapa_ecorregiones-01.svg",
+        "imgtitle": "img_cs.png"
+    },
+
+    "PA": {
+        "title": "Pantanal",
+        "surface": "42.023,10 km2",
+        "description": "Con bosques subhúmedos de mediana altura, lagunas y bosques inundables, el Pantanal es el mayor humedal del mundo y se encuentra ubicado en el extremo noreste el Chaco Paraguayo. La riqueza biológica del Río Paraguay, junto a la influencia de las ecorregiones del Amazonas y el Cerrado, han otorgado al Pantanal una gran abundancia de vida silvestre, exuberancia única que da lugar a especies que habitan un patrimonio natural reconocido a nivel mundial.",
+        "mapImg": "mapa_ecorregiones-01.svg",
+        "imgtitle": "img_pa.png"
+    },
+
+    "CE": {
+        "title": "Cerrados",
+        "surface": "12.279,20 Km2",
+        "description": "El Cerrado se encuentran en la cabecera de la Región, en frontera con Bolivia. La mayor parte de sus suelos son arcillosos y ácidos, pero posteriormente fueron cubiertos por arenas rojas gruesas provenientes la Sierra boliviana de Chiquitos y cantos rodados arrastrados por los ríos. Su sabana arbolada es más abierta, con árboles aislados o isletas de bosques. Debido a que las quemas son un factor constante, sus especies vegetales han desarrollado cortezas corchosas y tallos subterráneos pata evitar el contacto con el fuego.",
+        "mapImg": "mapa_ecorregiones-01.svg",
+        "imgtitle": "img_ce.png"
+    },
+
+    "MD": {
+        "title": "Médanos",
+        "surface": "7.576,80 Km2",
+        "description": "Situados en el Noreste de Paraguay, los Médanos del Chaco se caracterizan por estar configurados por formaciones de arena de origen eólico provenientes de los ríos Grande y Parapi en Bolivia. De cobertura discontinua y dispersa, su vegetación de árboles y arbustos dispersos son caracterizadas por no sobrepasar los 10 metros de altura. Sus condiciones forzaron a que algunas especies animales desarrollaran marcadas características de adaptación a ambientes xerófitos y condiciones desérticas sobre suelos arenosos, destacándose la presencia del Guanaco.",
+        "mapImg": "mapa_ecorregiones-01.svg",
+        "imgtitle": "img_md.png"
+    }
+
+
+}
