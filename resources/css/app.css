@@ -65,7 +65,7 @@ select:focus[data-flux-control] {
 @layer base {
     body {
         font-family: 'Inter', var(--font-sans);
-        background-color: #000; /* para centrar efecto kiosko */
+        background-color: #000; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -89,12 +89,6 @@ select:focus[data-flux-control] {
  
     }
 
-    .paragraph-timeline {
-        font-size: 14px;
-        line-height: 1.7;
-        color: var(--color-zinc-600);
-    }
-
     .nav-text {
         font-size: 18px;
         font-weight:450;
@@ -109,9 +103,24 @@ select:focus[data-flux-control] {
     }
 
     .timelinetext {         
-        font-size: 10px;
+        font-size: 13px;
         color: var(--color-zinc-600);
         font-weight: 500;
+    }
+
+    .timeline-date {
+        line-height: 1.7;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgb(17, 16, 16);
+    font-weight: 600;
+    }
+    
+    .paragraph-timeline {
+        font-size: 14px;
+        line-height: 2;
+        color: var(--color-zinc-600);
     }
 
         /* =========================
@@ -135,15 +144,18 @@ select:focus[data-flux-control] {
 
     html, body {
     height: 100%;
+    width: 100%;
+    overflow: hidden;
+    user-select: none;
+    -wenbkit-user-select:none;
+    touch-action: manipulation;
     }
 
-    .timeline-date {
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: rgb(17, 16, 16);
-    font-weight: 600;
+    img{
+        -webkit-user-drag: none;
+        pointer-events: none;
     }
+
     
 
      /*ciruclo del inicio de carga*/

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
         <meta charset="UTF-8">
         <title>@yield('title', 'Chaco War')</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -21,7 +21,7 @@
                     @yield('content')
                 </div>
                 <div id="navPanel"
-                    class="px-11 pb-5 pt-3">
+                    class="px-11 pb-5 pt-4">
                     @include('layouts.partials.nav')
                 </div>
             </div>

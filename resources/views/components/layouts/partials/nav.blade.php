@@ -55,24 +55,25 @@
 
 
             <div class="space-y-2.5 text-left">
-                <div class="flex justify-end items-center gap-2.5 ">
+                <div class="flex justify-end items-center gap-2.5 w-36">
                     <img src="{{ asset('images/antestitulo.svg') }}"
                     class="h-6 w-auto transition {{request('section') =='antecedentes' ? 'opacity-100' : 'opacity-50'}}"alt="">
                     <a href="{{ route('home', [
                         'section' => 'antecedentes',
                         'lang' => $lang
                     ]) }}"
-                    class="nav-text {{ request('section') === 'antecedentes' ? 'font-bold text-black' : 'text-gray-400' }}">
+                    class="nav-text {{ request('section') === 'antecedentes' ? 'font-bold text-black' : 'text-gray-400'  }} w-24 text-left">
                         {{$nav['inicio']}}
                     </a>
                 </div>
-                <div class="flex justify-end items-center gap-2.5">
+                <div class="flex justify-end items-center gap-2.5 w-36">
                     <img src="{{ asset('images/antestitulo.svg') }}"
-                    class="h-[25px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
-                   <a href="{{ request()->fullUrlWithQuery([
+                        class="h-6 w-auto opacity-50 transition" alt="">
+
+                    <a href="{{ request()->fullUrlWithQuery([
                         'lang' => $lang === 'es' ? 'en' : 'es'
                     ]) }}"
-                    class="nav-text">
+                    class="nav-text text-gray-400 w-24 text-left">
                         {{ $nav['language'] }}
                     </a>
                 </div>
