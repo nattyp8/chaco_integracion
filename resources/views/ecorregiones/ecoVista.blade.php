@@ -3,7 +3,7 @@
         <!-- MAPA -->
         <section class="w-1/2 flex items-center justify-center p-4">
             <div class="w-full max-h-[80vh] flex items-center justify-center appear-zoom">
-                {!! file_get_contents(public_path('mapa_ecorregiones-01.svg')) !!}
+                {!! file_get_contents(public_path('images_ecorregiones/mapa_ecorregiones-01.svg')) !!}
             </div>
         </section>
 
@@ -49,15 +49,15 @@
         <div class="flex gap-4">
 
             <a href="/ecorregiones">
-                <img id="btnEco" src="{{ asset('btn_eco.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Ecorregiones">
+                <img id="btnEco" src="{{ asset('images_ecorregiones/btn_eco.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Ecorregiones">
             </a>
 
             <a href="/precipitaciones">
-                <img id="btnPrec" src="{{ asset('btn_ll.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Lluvias">
+                <img id="btnPrec" src="{{ asset('images_ecorregiones/btn_ll.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Lluvias">
             </a>
 
             <a href="/zonasclimaticas">
-                <img id="btnClim" src="{{ asset('btn_zc.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Zonas Climáticas">
+                <img id="btnClim" src="{{ asset('images_ecorregiones/btn_zc.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Zonas Climáticas">
             </a>
 
         </div>

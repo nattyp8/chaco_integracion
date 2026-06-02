@@ -1,6 +1,6 @@
 
     <div class="flex items-center gap-2">
-                <img src="{{ asset('images/lineas.png') }}"
+                <img src="{{ asset('images_guerrachaco/lineas.png') }}"
                 class="h-5 w-auto transition {{request('section') =='antecedentes' ? 'opacity-100' : 'opacity-50'}}"alt="">
                 
                 <a href="{{ route('home', [
@@ -14,7 +14,7 @@
     </div>
 
     <div class="flex items-center gap-2">
-                <img src="{{ asset('images/lineas.png') }}"
+                <img src="{{ asset('images_guerrachaco/lineas.png') }}"
                 class="h-5 w-auto transition  {{request('section') =='fronteras' ? 'opacity-100' : 'opacity-50'}}" alt="">
                 <a href="{{ route('home', [
                                 'section' => 'fronteras',
@@ -27,7 +27,7 @@
 
 
     <div class="flex items-center gap-2 ">
-            <img src="{{ asset('images/lineas.png') }}"
+            <img src="{{ asset('images_guerrachaco/lineas.png') }}"
             class="h-5 w-auto transition {{request('section') =='fortines' ? 'opacity-100' : 'opacity-50'}}" alt="">
                 <a href="{{ route('home', [
                             'section' => 'fortines',

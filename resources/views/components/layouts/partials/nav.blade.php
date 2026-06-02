@@ -4,7 +4,7 @@
             <div class="space-y-2.5">
                 <div class="flex items-center gap-2.5 ">
                    <img
-                    src="{{ asset('images/lineas.png') }}"
+                    src="{{ asset('images_guerrachaco/lineas.png') }}"
                     class="h-4 w-auto transition {{ request()->route('year') == 1932 ? 'opacity-100' : 'opacity-50' }}" alt="">
                      <a href="{{ route('guerra.year', [
                         'year' => 1932,
@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="flex items-center gap-2.5 ">
-                    <img src="{{ asset('images/lineas.png') }}"
+                    <img src="{{ asset('images_guerrachaco/lineas.png') }}"
                     class="h-4 w-auto transition {{ request()->route('year') == 1933 ? 'opacity-100' : 'opacity-50' }}" alt="">
                      <a href="{{ route('guerra.year', [
                         'year' => 1933,
@@ -29,7 +29,7 @@
             </div>
             <div class="space-y-2.5 text-center">
                 <div class="flex justify-end items-center gap-2.5 ">
-                    <img src="{{ asset('images/lineas.png') }}"
+                    <img src="{{ asset('images_guerrachaco/lineas.png') }}"
                     class="h-4 w-auto transition {{ request()->route('year') == 1934 ? 'opacity-100' : 'opacity-50' }}" alt="">
                     <a href="{{ route('guerra.year', [
                         'year' => 1934,
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="flex justify-end items-center gap-2.5">
-                    <img src="{{ asset('images/lineas.png') }}"
+                    <img src="{{ asset('images_guerrachaco/lineas.png') }}"
                     class="h-4 w-auto transition {{ request()->route('year') == 1935 ? 'opacity-100' : 'opacity-50' }}"alt="">
                     <a href="{{ route('guerra.year', [
                         'year' => 1935,
@@ -56,7 +56,7 @@
 
             <div class="space-y-2.5 text-left">
                 <div class="flex justify-end items-center gap-2.5 w-36">
-                    <img src="{{ asset('images/antestitulo.svg') }}"
+                    <img src="{{ asset('images_guerrachaco/antestitulo.svg') }}"
                     class="h-6 w-auto transition {{request('section') =='antecedentes' ? 'opacity-100' : 'opacity-50'}}"alt="">
                     <a href="{{ route('home', [
                         'section' => 'antecedentes',
@@ -67,7 +67,7 @@
                     </a>
                 </div>
                 <div class="flex justify-end items-center gap-2.5 w-36">
-                    <img src="{{ asset('images/antestitulo.svg') }}"
+                    <img src="{{ asset('images_guerrachaco/antestitulo.svg') }}"
                         class="h-6 w-auto opacity-50 transition" alt="">
 
                     <a href="{{ request()->fullUrlWithQuery([

@@ -5,7 +5,7 @@
 
             <!-- MAPA - lado izquierdo -->
             <div id="map" class="w-1/2 mt-auto mb-auto h-auto relative">
-                <img id="img" src="{{ asset('zoom_1.svg') }}" alt="">
+                <img id="img" src="{{ asset('images_ecorregiones/zoom_1.svg') }}" alt="">
 
                 <div id="pulse-wrapper-vi">
                     <div id="pulse">
@@ -49,15 +49,15 @@
             <div class="fixed bottom-4 right-4 lg:bottom-8 lg:right-8 flex gap-2 lg:gap-4">
 
                 <a href="/ecorregiones">
-                    <img id="btnEco" src="{{ asset('btn_eco.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Ecorregiones">
+                    <img id="btnEco" src="{{ asset('images_ecorregiones/btn_eco.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Ecorregiones">
                 </a>
 
                 <a href="/precipitaciones">
-                    <img id="btnPrec" src="{{ asset('btn_ll.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Lluvias">
+                    <img id="btnPrec" src="{{ asset('images_ecorregiones/btn_ll.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Lluvias">
                 </a>
 
                 <a href="/zonasclimaticas">
-                    <img id="btnClim" src="{{ asset('btn_zc.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Zonas Climáticas">
+                    <img id="btnClim" src="{{ asset('images_ecorregiones/btn_zc.png') }}" class="w-16 lg:w-24 cursor-pointer" alt="Zonas Climáticas">
                 </a>
 
             </div>
@@ -93,11 +93,11 @@
 
                     if (estado === 1) {
 
-                        cambiarImagen('/zoom_2_dep.svg');
+                        cambiarImagen('images_ecorregiones/zoom_2_dep.svg');
                         estado = 2;
 
                         setTimeout(() => {
-                            cambiarImagen('/zoom_3_dep.svg');
+                            cambiarImagen('images_ecorregiones/zoom_3_dep.svg');
 
                             setTimeout(() => {
                                 window.location = '/ecorregiones';

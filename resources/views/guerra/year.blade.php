@@ -8,7 +8,7 @@
         <div class="shrink-0 px-10 pt-6 bg-[#F3F3F5] z-10">
             <div class="flex items-center gap-2 mb-2">
                 <img
-                    src="{{ asset('images/antestitulo.svg') }}"
+                    src="{{ asset('images_guerrachaco/antestitulo.svg') }}"
                     class="h-9 w-auto"
                     alt=""
                 >

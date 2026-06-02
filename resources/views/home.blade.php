@@ -3,7 +3,7 @@
         <div class="flex flex-col h-full ">
             <div class="shrink-0 px-5 pt-6  z-10">
                 <div class="flex items-start gap-3">
-                    <img src="{{ asset('images/antestitulo.svg') }}"
+                    <img src="{{ asset('images_guerrachaco/antestitulo.svg') }}"
                         class="h-9 w-auto  mt-1"
                         alt="icono antes de los titulos">
                     <h1 class="title max-w-[320px]">
