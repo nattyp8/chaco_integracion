@@ -67,45 +67,46 @@
 
 
         <script>
-            function cambiarImagen(nuevaRuta) {
+            document.addEventListener('DOMContentLoaded', () => {
 
                 const img = document.getElementById('img');
 
-                img.style.transition = 'all 0.5s ease';
-                img.style.opacity = '0';
-                img.style.transform = 'scale(1.05)';
+                function cambiarImagen(nuevaRuta) {
 
-                setTimeout(() => {
+                    img.style.transition = 'all 0.5s ease';
+                    img.style.opacity = '0';
+                    img.style.transform = 'scale(1.05)';
 
-                    img.src = nuevaRuta;
+                    setTimeout(() => {
 
-                    img.style.opacity = '1';
-                    img.style.transform = 'scale(1)';
+                        img.src = nuevaRuta;
 
-                }, 500);
+                        img.style.opacity = '1';
+                        img.style.transform = 'scale(1)';
 
-            }
+                    }, 500);
+                }
 
-
-            let estado = 1;
+               let estado = 1;
 
             img.addEventListener('click', function() {
 
-                if (estado === 1) {
+                    if (estado === 1) {
 
-                    cambiarImagen('/zoom_2_dep.svg');
-                    estado = 2;
-
-                    setTimeout(() => {
-                        cambiarImagen('/zoom_3_dep.svg');
+                        cambiarImagen('/zoom_2_dep.svg');
+                        estado = 2;
 
                         setTimeout(() => {
-                            window.location = '/ecorregiones';
-                        }, 1000);
+                            cambiarImagen('/zoom_3_dep.svg');
 
-                    }, 1300);
+                            setTimeout(() => {
+                                window.location = '/ecorregiones';
+                            }, 1000);
 
-                }
+                        }, 1300);
+
+                    }
+                });
 
             });
         </script>

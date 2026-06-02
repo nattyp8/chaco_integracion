@@ -7,21 +7,16 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 use App\Http\Controllers\HomeController;
 
+
+Route::view('/menu', 'menu')->name('menu');
+
+
+//rutas guerra deñ chaco
+
 Route::view('/', 'welcome', [
 ])->name('welcome');
 
-// Route::prefix('{current_team}')
-//     ->middleware(['auth', 'verified', EnsureTeamMembership::class])
-//     ->group(function () {
-//         Route::view('dashboard', 'dashboard')->name('dashboard');
-//     });
-
-
-// Route::middleware(['auth'])->group(function () {
-//     Route::livewire('invitations/{invitation}/accept', 'pages::teams.accept-invitation')->name('invitations.accept');
-// });
-
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/proyectoguerra', [HomeController::class, 'index'])->name('home');
 
 
 Route::get ('/guerra/{year}', [GuerraController::class, 'year'])
@@ -29,7 +24,10 @@ Route::get ('/guerra/{year}', [GuerraController::class, 'year'])
         ->name('guerra.year')
     ;
 
-Route::get('/vistaPrincipal', [EcoController::class, 'vistaPr'])
+
+//rutas ecorregiones
+
+Route::get('/proyectoecorregiones', [EcoController::class, 'vistaPr'])
     ->name('vistaPrincipal');
 
 Route::get('/ecorregiones', [EcoController::class, 'ecoVista']);
