@@ -1,4 +1,6 @@
- <x-layouts::app.app>
+@extends('ecorregiones_chaco.layouts.app')
+
+@section('content')
     <div class="flex h-screen">
         <!-- MAPA -->
         <section class="w-1/2 flex items-center justify-center p-4">
@@ -90,4 +92,4 @@
     </script>
 
     @endpush
-</x-layouts::app.app>
+@endsection

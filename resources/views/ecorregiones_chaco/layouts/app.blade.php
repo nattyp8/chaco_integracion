@@ -14,10 +14,8 @@
 <body class="min-h-screen bg-zinc-50 md:bg-opacity-20">
 
 
-    <main >
-
-            {{ $slot }}
-
+    <main>
+         @yield('content')
     </main>
 
 

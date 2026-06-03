@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('guerra_chaco.layouts.app')
     @section('content')
         <div class="flex flex-col h-full ">
             <div class="shrink-0 px-5 pt-6  z-10">

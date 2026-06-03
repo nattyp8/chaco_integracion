@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('guerra_chaco.layouts.app')
 @section('content')
     <div id="app"
         x-data="timeLineComponent(@js($yearData))"

@@ -1,4 +1,6 @@
-<x-layouts::app.app>
+@extends('ecorregiones_chaco.layouts.app')
+
+@section('content')
 
         <div class="flex gap-4 h-screen">
 
@@ -111,5 +113,5 @@
             });
         </script>
 
-</x-layouts::app.app>
+@endsection
 
