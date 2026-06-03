@@ -26,7 +26,7 @@
             {{-- nav antecedentes  --}}
             <div class="w-24 h-0.5 bg-gray-400 mb-1 mt-1"></div>
             <div class="flex items-start gap-2.5">
-                @include('layouts.partials.antecedentes')
+                @include('guerra_chaco.partials.antecedentes')
             </div>
         </div>
 

@@ -11,16 +11,16 @@ class EcoController extends Controller
 
 
     public function welcome () {
-     return view('welcome');
+     return view('guerra_chaco.welcome');
     }
 
     public function vistaPr () {
-        return view('vistaPrincipal');
+        return view('ecorregiones_chaco.vistaPrincipal');
     }
 
     //ecorregiones
     public function ecoVista () {
-       return view('ecorregiones.ecoVista');
+       return view('ecorregiones_chaco.ecorregiones.ecoVista');
 
     }
 
@@ -36,19 +36,19 @@ class EcoController extends Controller
         }
 
         $eco = json_decode(file_get_contents($file), true);
-        return view('ecorregiones.contReg', ['region' => $eco[$region]]);
+        return view('ecorregiones_chaco.ecorregiones.contReg', ['region' => $eco[$region]]);
     }
 
     //precipitacioness
 
     public function precVista () {
-        return View('precipitaciones.precVista');
+        return View('ecorregiones_chaco.precipitaciones.precVista');
     }
 
 
     //zonas climaticas
      public function zonasVista () {
-       return view('zonasClimaticas.zonasVista');
+       return view('ecorregiones_chaco.zonasClimaticas.zonasVista');
     }
 
 
@@ -61,6 +61,6 @@ class EcoController extends Controller
     }
 
     $zonas = json_decode(file_get_contents($file), true);
-    return view('zonasClimaticas.contReg', ['region' => $zonas[$region]]);
+    return view('ecorregiones_chaco.zonasClimaticas.contReg', ['region' => $zonas[$region]]);
     }
 }

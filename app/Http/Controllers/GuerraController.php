@@ -27,7 +27,7 @@ class GuerraController extends Controller
 
         $nav = $home['nav'];
 
-        return view('guerra.year',[
+        return view('guerra_chaco.guerra.year',[
             'yearData' =>$yearData,
             'bgImage' => $bgImage,
             'lang' => $lang,

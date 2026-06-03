@@ -22,7 +22,7 @@
                 </div>
                 <div id="navPanel"
                     class="px-11 pb-5 pt-4">
-                    @include('layouts.partials.nav')
+                    @include('guerra_chaco.partials.nav')
                 </div>
             </div>
         </div>

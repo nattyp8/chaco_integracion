@@ -20,7 +20,7 @@ class HomeController extends Controller
 
         $nav= $data['nav'];
 
-        return view ('home',[
+        return view ('guerra_chaco.home',[
             'title' => $shared['title'],
             'paragraphs' => $shared['paragraphs'],
             'bgImage' => $sectionData['image'],
