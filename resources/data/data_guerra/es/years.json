@@ -1,7 +1,7 @@
 {
     "1932": {
                 "title": "1932",
-                "map":"images/mapa_1932.svg",
+                "map":"images_guerrachaco/mapa_1932.svg",
                 "events": [
 
                     {
@@ -62,7 +62,7 @@
 
             "1933": {
                 "title": "1933",
-                "map":"images/mapa_1933.svg",
+                "map":"images_guerrachaco/mapa_1933.svg",
                 "events": [
 
                     {
@@ -110,7 +110,7 @@
 
             "1934": {
                 "title": "1934",
-                "map":"images/mapa_1934.svg",  
+                "map":"images_guerrachaco/mapa_1934.svg",  
                 "events": [
                 {
                     "id": 0,        
@@ -175,7 +175,7 @@
 
             "1935": {
                 "title": "1935",
-                "map":"images/mapa_1935.svg",
+                "map":"images_guerrachaco/mapa_1935.svg",
                 "events": [
                 {
                     "id": 0,        

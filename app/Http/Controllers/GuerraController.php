@@ -11,12 +11,13 @@ class GuerraController extends Controller
         $lang= request('lang','es');
 
         $jsonYears =file_get_contents(
-            resource_path("data/$lang/years.json"));
+            resource_path("data/data_guerra/$lang/years.json"));
 
         $years=json_decode($jsonYears,true);
 
 
-        $jsonHome=file_get_contents(resource_path("data/$lang/home.json"));
+        $jsonHome=file_get_contents(resource_path("data/data_guerra/$lang/home.json"));
+
 
         $home = json_decode($jsonHome,true);
 

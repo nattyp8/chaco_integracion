@@ -26,13 +26,13 @@ class EcoController extends Controller
 
     public function contReg(string $region) {
         $locale = session('locale', 'es');
-        $file = resource_path("data/{$locale}/ecorregiones_{$locale}.json");
+        $file = resource_path("data/data_ecorregiones/{$locale}/ecorregiones_{$locale}.json");
 
 
 
         // Si no existe el archivo del idioma, usa español por defecto
         if (!file_exists($file)) {
-            $file = resource_path("data/es/ecorregiones_es.json");
+            $file = resource_path("data/data_ecorregiones/es/ecorregiones_es.json");
         }
 
         $eco = json_decode(file_get_contents($file), true);
@@ -55,9 +55,9 @@ class EcoController extends Controller
     public function contRegV (string $region) {
 
         $locale = session('locale', 'es');
-        $file = resource_path("data/{$locale}/zonas_climaticas.json");
+        $file = resource_path("data/data_ecorregiones/{$locale}/zonas_climaticas.json");
          if (!file_exists($file)) {
-        $file = resource_path("data/es/zonas_climaticas.json");
+        $file = resource_path("data/data_ecorregiones/es/zonas_climaticas.json");
     }
 
     $zonas = json_decode(file_get_contents($file), true);

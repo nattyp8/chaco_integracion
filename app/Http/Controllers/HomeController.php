@@ -11,7 +11,7 @@ class HomeController extends Controller
         $section = request('section', 'antecedentes');
         $lang= request('lang','es');
 
-        $json=file_get_contents(resource_path("data/$lang/home.json"));
+        $json=file_get_contents(resource_path("data/data_guerra/$lang/home.json"));
         $data=json_decode($json, true);
 
         $shared= $data['shared'];

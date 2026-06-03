@@ -1,5 +1,5 @@
 
-import './timeline.js'
+import './js_chaco/timeline.js'
 
 import Alpine from 'alpinejs'
 

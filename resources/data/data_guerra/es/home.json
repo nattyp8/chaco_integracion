@@ -16,13 +16,13 @@
 
             "sections":{
                 "antecedentes":{
-                    "image":"images/antecedentes.svg"
+                    "image":"images_guerrachaco/antecedentes.svg"
                 },
                 "fronteras":{
-                    "image": "images/fronteras.svg"
+                    "image": "images_guerrachaco/fronteras.svg"
                 },
                 "fortines":{
-                    "image": "images/fortines.svg"
+                    "image": "images_guerrachaco/fronteras.svg"
                 }
             }   
 }
