@@ -1,6 +1,6 @@
 
 @layer components{
-        @keyframes pulse_animation {
+        @keyframes pulse_animation_eco {
         0%{
             box-shadow:0 0 0 0 rgba(80,215,225,.45);
             opacity:.8;
@@ -39,7 +39,7 @@
         border-radius:50%;
         background:#bfe8ebb4;
         transform:translate(-50%,-50%);
-        animation:pulse_animation 1.6s infinite;
+        animation:pulse_animation_eco 1.6s infinite;
     }
 
     #pulse span:nth-child(2){
