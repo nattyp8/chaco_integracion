@@ -1,17 +1,17 @@
 <?php
-use App\Http\Controllers\EcoController;
-use App\Http\Controllers\GuerraController;
+use App\Http\Controllers\EcorregionesChaco\EcoController;
+use App\Http\Controllers\GuerraChaco\GuerraController;
 use App\Http\Middleware\EnsureTeamMembership;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\GuerraChaco\HomeController;
 
 
 Route::view('/menu', 'menu')->name('menu');
 
 
-//rutas guerra deñ chaco
+//rutas guerra del chaco
 
 Route::view('/', 'guerra_chaco.welcome', [
 ])->name('welcome');
