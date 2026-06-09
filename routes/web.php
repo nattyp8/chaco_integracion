@@ -13,7 +13,7 @@ Route::view('/menu', 'menu')->name('menu');
 
 //rutas guerra del chaco
 
-Route::view('/', 'guerra_chaco.welcome', [
+Route::view('/', 'welcome', [
 ])->name('welcome');
 
 Route::get('/proyectoguerra', [HomeController::class, 'index'])->name('home');

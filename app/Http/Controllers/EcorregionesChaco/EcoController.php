@@ -11,7 +11,7 @@ class EcoController extends Controller
 
 
     public function welcome () {
-     return view('guerra_chaco.welcome');
+     return view('welcome');
     }
 
     public function vistaPr () {

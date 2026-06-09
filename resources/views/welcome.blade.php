@@ -8,7 +8,7 @@
 </head>
     <body class="bg-black overflow-hidden">
         <div id="intro"
-            data-url="{{ route('home') }}"
+            data-url="{{ route('menu') }}"
             class="flex flex-col items-center justify-center mt-30 pacity-100 transition-opacity ">
             <img
             src="{{ asset('images/img_inicio.svg')}}"

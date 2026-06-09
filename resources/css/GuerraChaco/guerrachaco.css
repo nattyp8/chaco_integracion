@@ -107,7 +107,6 @@
         animation: spin 2s linear infinite;
     }
     #loader:before {
-      /* homentent: ""; */
         position: absolute;
         top: 5px;
         left: 5px;
